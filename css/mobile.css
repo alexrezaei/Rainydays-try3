@@ -1,0 +1,132 @@
+@media (min-width: 375px) {
+  /* navbar */
+
+  .hero {
+    width: 100%;
+    height: 90px;
+    background: #d98841;
+  }
+
+  .nav ul,
+  li,
+  .search,
+  .icons {
+    display: none;
+  }
+  .logo {
+    height: 44px;
+    width: 83px;
+  }
+
+  .logo img {
+    width: 100%;
+    height: 100%;
+    margin: 23px 36px;
+  }
+
+  /* Content */
+  .content {
+    margin-bottom: 48px;
+  }
+  .content .row {
+    flex-direction: column;
+  }
+  .content .column-2 {
+    display: none;
+  }
+
+  .content .column-1 {
+    text-align: center;
+  }
+
+  .content h1 {
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 1.4;
+    padding: 0 46px;
+    margin-bottom: 31px;
+  }
+
+  .btn-hero {
+    padding: 18px 27px;
+    font-size: 20px;
+    border: solid 2px #d98841;
+    border-radius: 9px;
+    color: #d98841;
+  }
+
+  /* Product */
+
+  .flex-columns .row {
+    flex-direction: column;
+  }
+
+  .product .column-1 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product .column-1 img {
+    max-width: 189px;
+    max-height: 177px;
+    margin-bottom: 20px;
+  }
+  .product .column-2 {
+    text-align: center;
+  }
+
+  .product .column-2 h3 {
+    font-size: 18px;
+  }
+  .product .column-2 h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .product p {
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+
+  .product h5 {
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+  .product .add-cart {
+    padding: 12px 30px;
+    font-size: 17px;
+    border-radius: 19px;
+    border: 2px solid #d98841;
+  }
+
+  .cta-email {
+    text-align: center;
+  }
+
+  .cta-email h2 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    margin-top: 60px;
+  }
+
+  .cta-email form input {
+    width: 200px;
+    height: 60px;
+    border-radius: 22px 0 0 22px;
+    border: #d98841 solid 1px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-indent: 10px;
+  }
+
+  .cta-email form a {
+    border-radius: 0 28px 28px 0;
+    background: #d98841;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    padding: 12px 30px 16px 30px;
+    margin-left: -4px;
+  }
+}
