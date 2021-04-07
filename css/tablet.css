@@ -1,0 +1,40 @@
+@media (min-width: 768px) {
+  .flex-columns .row {
+    flex-direction: row;
+  }
+
+  #product .flex-columns .column {
+    flex-direction: row;
+  }
+
+  .content {
+    margin-top: 50px;
+  }
+
+  .content .column-2 {
+    display: block;
+  }
+
+  .content img {
+    border-radius: 0 45px 45px 0;
+    width: 90%;
+  }
+
+  .product .column-2 h3 {
+    margin-top: 70px;
+  }
+
+  .product .column-2 p {
+    padding: 30px;
+  }
+
+  /* ------- Checkout ------ */
+
+  .checkout .box-1 {
+    width: 400px;
+  }
+
+  .checkout .box-2 {
+    width: 400px;
+  }
+}

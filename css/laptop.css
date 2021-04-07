@@ -1,0 +1,104 @@
+@media (min-width: 1025px) {
+  /* ---------- Homepage --------- */
+  /* Content */
+
+  .hero {
+    background-color: #fff;
+    height: 143px;
+  }
+  .search {
+    display: block;
+  }
+
+  .search input {
+    border: 2px solid #d98841;
+    width: 200px;
+    height: 30px;
+    border-radius: 14px;
+  }
+
+  .icons {
+    display: block;
+    font-size: 12px;
+    color: #d98841;
+  }
+  .icons i {
+    margin: 0 20px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+  }
+
+  .logo {
+    height: 92px;
+    width: 170px;
+  }
+  .logo img {
+    margin: 0 20px;
+  }
+  .navbar ul {
+    margin: 0 20px;
+  }
+  .navbar li {
+    display: inline-block;
+    justify-content: center;
+    margin: 23px 0;
+  }
+
+  .navbar a {
+    display: center;
+    font-size: 20px;
+    margin: 0 15px;
+  }
+
+  /* Content */
+
+  .content {
+    margin-top: 100px;
+  }
+
+  .content .column-2 {
+    max-width: 812px;
+    max-height: 465px;
+  }
+
+  .flex-columns .row {
+    flex-direction: row;
+  }
+
+  .content .column-1 h1 {
+    margin-top: 100px;
+    font-size: 57px;
+    line-height: 1.2;
+  }
+
+  .content .column-2 {
+    display: block;
+    min-width: 400px;
+    min-height: 465px;
+  }
+
+  .content .column-2 img {
+    border-radius: 0 45px 45px 0;
+  }
+
+  /* product */
+
+  .product .column-2 h3 {
+    margin-top: 190px;
+  }
+
+  /* ---- Checkout ------ */
+
+  .checkout .column .box-1 {
+    width: 500px;
+  }
+  .checkout .column .box-2 {
+    width: 500px;
+  }
+}
