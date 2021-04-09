@@ -47,6 +47,14 @@ a {
   color: #d98841;
   margin: 0 10px;
 }
+
+.sizing a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  text-decoration: underline;
+}
 /* Flex columns*/
 .flex-columns .row {
   display: flex;
@@ -71,4 +79,9 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.logo img {
+  max-height: 628px;
+  max-width: 674px;
 }
