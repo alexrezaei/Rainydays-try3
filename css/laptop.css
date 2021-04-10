@@ -60,6 +60,13 @@
   .navbar a:hover {
     text-decoration: underline;
   }
+  .fa-user:hover {
+    font-size: 40px;
+  }
+
+  .fa-shopping-cart:hover {
+    font-size: 40px;
+  }
 
   /* Content */
 

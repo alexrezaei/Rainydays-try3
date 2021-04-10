@@ -15,7 +15,7 @@
 
   .nav,
   .search,
-  .icons {
+  .navbar .icons {
     display: none;
   }
   .logo {
@@ -263,6 +263,16 @@
   }
   .checkout .box-2 .purchase:hover {
     color: black;
+  }
+
+  .checkout .icons i {
+    color: #fff;
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .checkout .icons span {
+    margin-left: 10px;
   }
   /* ------ checkout Success ------ */
 
