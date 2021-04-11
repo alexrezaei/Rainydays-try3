@@ -15,7 +15,8 @@
 
   .nav,
   .search,
-  .navbar .icons {
+  .navbar,
+  .icons {
     display: none;
   }
   .logo {
