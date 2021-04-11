@@ -113,6 +113,10 @@
     border: 2px solid #d98841;
   }
 
+  .sizing {
+    font-size: 20px;
+  }
+
   .product .add-cart:hover {
     background: #d98841;
     color: #fff;
