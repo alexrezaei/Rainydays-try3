@@ -24,7 +24,7 @@
   }
   .icons i {
     margin: 0 20px;
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   .navbar {
@@ -53,7 +53,7 @@
 
   .navbar a {
     display: center;
-    font-size: 20px;
+    font-size: 2rem;
     margin: 0 15px;
   }
 
@@ -61,11 +61,11 @@
     text-decoration: underline;
   }
   .fa-user:hover {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   .fa-shopping-cart:hover {
-    font-size: 40px;
+    font-size: 4rem;
   }
 
   /* Content */
@@ -88,7 +88,7 @@
 
   .content .column-1 h1 {
     margin-top: 100px;
-    font-size: 57px;
+    font-size: 5.7rem;
     line-height: 1.2;
   }
 
@@ -102,7 +102,7 @@
     border-radius: 0 45px 45px 0;
   }
 
-  /* product */
+  /* ----- product ------ */
   .product {
     max-width: 1920px;
     margin: 0 auto;
