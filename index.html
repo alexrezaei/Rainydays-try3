@@ -10,31 +10,35 @@
     <link rel="stylesheet" href="./css/media-queries.css">
 </head>
 <body>
-    <header class="hero">
-        <div class="navbar" id="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="/img/RainyDays_Logo.png" alt="RainyDays Logo"></a>
+        <header>
+            <div class="images">
+                <div class="logo-container">
+                    <img src="./img/RainyDays_Logo.png" alt="Rainy days logo" class="logo">
+                </div>
+                <div class="menu-container">
+                    <img src="/img/menu.png" alt="menu" class="menu">
+                </div>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="product-page.html">Jackets</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
+            <nav class="navbar none">
+                <div class="links">
+                    <a href="index.html">Home</a>
+                    <a href="product-page.html">Jacket</a>
+                    <a href="about.html">About</a>
+                    <a href="contact-us.html">Contact</a>
+                </div>
+                <form action="#">
+                    <input type="text">
+                </form>
+                <div class="icons">
+                    <img src="/img/shopping-cart.png" alt="" id="shoppingcart">
+                    <img src="/img/user.png" alt="">
+                </div>
             </nav>
-
-            <div class="search">
-                <input type="text" title="search">
-            </div>
-            <div class="icons">
-                <a href=""><i class="far fa-user fa-2x"></i></a>
-                <a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
-            </div>
-        </div>
-    </header>
-<body>
+        </header>
     <main>
+        <div class="shopping-cart nothing">
+            <p>empty</p>
+        </div>
         <section class="content flex-columns" id="content">
             <div class="row">
                 <div class="column">
@@ -65,16 +69,20 @@
                         <h3 class="text-primary">RAINYDAYS</h3>
                         <h2 class="text-bg">Rain Jacket</h2>
                         <div class="sizing">
-                            <i class="fas fa-circle black"></i>
-                            <i class="fas fa-circle yellow"></i>
-                            <i class="fas fa-circle blue"></i>
-                            <a href="">S</a>
-                            <a href="">M</a>
-                            <a href="">L</a>
+                            <select id="colors">
+                                <option value="Black" selected>black</option>
+                                <option value="yellow">yellow</option>
+                                <option value="blue">blue</option>
+                            </select>
+                            <select id="sizes">
+                                <option value="small" selected>small</option>
+                                <option value="medium">medium</option>
+                                <option value="large">large</option>
+                            </select>
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor congue mollis. Donec tempus ligula sit amet nunc viverra interdum. Donec porttitor lorem erat, vitae bibendum diam gravida at.</p>
                         <h5 class="price text-primary">$$</h5>
-                        <a href="checkout.html" class="add-cart">Add to cart</a>
+                        <a href="#" class="add-cart">Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -87,5 +95,8 @@
                 </form>
         </section>
     </main>
+<body>
+    <script src="js/main.js"></script>
+    <script src="js/addToCart.js"></script>
 </body>
 </html>

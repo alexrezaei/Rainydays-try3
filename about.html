@@ -10,28 +10,34 @@
     <script src="https://kit.fontawesome.com/e6129fc2c9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="hero">
-        <div class="navbar" id="navbar">
-            <div class="logo">
-                <a href="index.html"><img src="/img/RainyDays_Logo.png" alt="RainyDays Logo"></a>
+    <header>
+        <div class="images">
+            <div class="logo-container">
+                <img src="./img/RainyDays_Logo.png" alt="Rainy days logo" class="logo">
             </div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="product-page.html">Jackets</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="search">
-                <input type="text" title="search">
-            </div>
-            <div class="icons">
-                <i class="far fa-user fa-2x"></i>
-                <a href="checkout.html"><i class="fas fa-shopping-cart fa-2x"></i></a>
+            <div class="menu-container">
+                <img src="/img/menu.png" alt="menu" class="menu">
             </div>
         </div>
+        <nav class="navbar none">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="product-page.html">Jacket</a>
+                <a href="about.html">About</a>
+                <a href="contact-us.html">Contact</a>
+            </div>
+            <form action="#">
+                <input type="text">
+            </form>
+            <div class="icons">
+                <img src="/img/shopping-cart.png" alt="" id="shoppingcart">
+                <img src="/img/user.png" alt="">
+            </div>
+        </nav>
     </header>
+    <div class="shopping-cart nothing">
+        <p>empty</p>
+    </div>
     <div class="about-us">
         <h1>About us</h1>
         <div class="container">
@@ -41,5 +47,6 @@
             </div>
         </div>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
